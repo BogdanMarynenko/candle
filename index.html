@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Roboto&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="header__logo"><img src="images/logo.png" alt="" class="header__img"></a>
+      <nav class="menu header__menu">
+        <button class="btn__menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="menu__list header__menu-list">
+          <li class="menu__list-item"><a href="#" class="menu__list-link">Про нас</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__list-link">Каталог</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__list-link">Команда</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__list-link">Відгуки</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__list-link">Курси</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+4565789876" class="phone">+45 65 78 98 76</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="top">
+    <div class="container top__inner">
+      <div class="top__content">
+        <h3 class="top__title">
+          Створіть атмосферу затишку та гармонії!
+        </h3>
+        <p class="top__text">Створіть особливу атмосферу у своєму домі з нашою екологічно чистою та якісною продукцією зі 100% натуральної соєвого воску.</p>
+        <button class="top__btn">Купити</button>
+        <picture class="top__img">
+           <source  srcset="images/top-small.png" media="(max-width:360px)">
+           <source  srcset="images/top-middle.png" media="(max-width:480px)">
+          <img class="top__img-big" src="images/top-big.png" alt="">
+        </picture>
+      </div>
+    </div>
+  </section>
+  <section class="about-us">
+    <div class="container">
+      <div class="about-us__info">
+      <div class="about-us__info-inner">
+        <h3 class="about-us__title">Про нас</h3>
+        <p class="about-us__text">Богдан творець бренду який завжди зацікавлений у виготовленні різноманітних речей вдома. Він регулярно експериментував з різними матеріалами та інструментами, спробувавши свої сили у багатьох галузях, включаючи виготовлення свічок.
+          </p>
+          <br>
+        <p class="about-us__text">Ссоєвий віск виготовляють із соєвих бобів, що зрощуються в Данії, і цей вид воску є екологічно чистим та безпечним для здоров'я.
+          </p>
+      </div>
+      <picture class="about-us__img">
+       <img class="about-us__img-big" src="images/about-us-big.png" alt="">
+       <img class="about-us__img-dec" src="images/about-decor.png" alt="">
+     </picture>
+   </div> 
+  </div>
+  </section>
+
+  <section class="product">
+    <div class="container product__inner">
+      <div class="product__info">
+        <h2 class="product__info-title">Наші товари</h2>
+        <p class="product__info-text">Ми використовуємо тільки найкращі якісні матеріали: соєвий віск, віскові барвники, високоякісні ароматичні олії та бавовняні фітільці. Відтінки свічок дуже гармонійно поєднуються з ароматом, створюючи незабутню атмосферу у вашому домі.</p>
+      </div>
+
+      <ul class="product__list section__decor">
+        <li class="product__item">
+          <img src="images/prod-1.jpg" alt="" class="product__item-img">
+          <p class="product__item-price">10$</p>
+          <h3 class="product__item-title">"Сердечко кохання"</h3>
+          <p class="product__item-text">Запах: ніжний аромат троянди та ванілі. 
+            Для чого: для атмосфери романтичного настрою</p>
+            <button class="top__btn product__item-btn">Купити</button>
+        </li>
+        <li class="product__item">
+          <img src="images/prod-2.jpg" alt="" class="product__item-img">
+          <p class="product__item-price">20$</p>
+          <h3 class="product__item-title">"Вихір кохання"</h3>
+          <p class="product__item-text">Запах: ніжний аромат лаванди. 
+            Для чого: для створення атмосфери затишку </p>
+            <button class="top__btn product__item-btn">Купити</button>
+        </li>
+        <li class="product__item">
+          <img src="images/prod-3.jpg" alt="" class="product__item-img">
+          <p class="product__item-price">10$</p>
+          <h3 class="product__item-title">"Веселка"</h3>
+          <p class="product__item-text">Запах: Свіжий аромат лайма. 
+            Для чого: для енергії та свіжості в приміщені.</p>
+            <button class="top__btn product__item-btn">Купити</button>
+        </li>
+        <li class="product__item">
+          <img src="images/prod-4.jpg" alt="" class="product__item-img">
+          <p class="product__item-price">10$</p>
+          <h3 class="product__item-title">"Жіноча чарівність"</h3>
+          <p class="product__item-text">Запах: ніжний аромат лаванди та фрезій. Для чого: для затишку та комфорту.</p>
+            <button class="top__btn product__item-btn">Купити</button>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section class="made">
+      <div class="container product__inner">
+        <div class="made__info product__info">
+          <h2 class="product__info-title">Етапи створення свічок</h2>
+          <p class="product__info-text">Створення свічки із соєвого воску може складатися з наступних етапів:</p>
+        </div>
+        <ul class="made__list section__decor">
+          <li class="made__item">
+            <p class="made__text">
+              Підготовка матеріалів: дрібні фрагменти соєвого воску, фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+            </p>
+            <p class="made__num">01</p>
+            <img src="images/made-1.jpg" alt="" class="made__img">
+          </li>
+          <li class="made__item">
+            <p class="made__text">
+              Підготовка форми: вибір форми для свічки та підготовка її до наповнення воском.            </p>
+              <p class="made__num">02</p>
+              <img src="images/made-2.jpg" alt="" class="made__img">
+          </li>
+
+          <li class="made__item">
+            <img src="images/made-3.jpg" alt="" class="made__img">
+            <p class="made__text">
+              Приготування воску: розплавлення соєвого воску у плавильному пристрої до потрібної температури. Додавання ароматизаторів та барвників за необхідності.            </p>
+              <p class="made__num--revers">03</p>
+            </li>
+          <li class="made__item">
+            <img src="images/made-4.jpg" alt="" class="made__img">
+            <p class="made__text">
+              Підготовка фітіля: вставлення фітіля до форми та зафіксування його так, щоб він був рівномірно напружений.          </p>
+              <p class="made__num--revers">04</p>
+            </li>
+
+          <li class="made__item">
+            <p class="made__text">
+              Підготовка матеріалів: дрібні фрагменти соєвого воску, фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+            </p>
+            <p class="made__num">05</p>
+            <img src="images/made-5.jpg" alt="" class="made__img">
+          </li>
+          <li class="made__item">
+            <p class="made__text">
+              Наповнення форми: воск налити до форми, поки вона не заповниться повністю. Чекати, доки він затвердіє.            </p>
+              <p class="made__num">06</p>
+              <img src="images/made-6.jpg" alt="" class="made__img">
+          </li>
+
+          <li class="made__item">
+            <img src="images/made-7.jpg" alt="" class="made__img">
+            <p class="made__text">
+              Приготування воску: розплавлення соєвого воску у плавильному пристрої до потрібної температури. Додавання ароматизаторів та барвників за необхідності.</p>
+              <p class="made__num--revers">07</p>
+            </li>
+          <li class="made__item">
+            <img src="images/made-8.jpg" alt="" class="made__img">
+            <p class="made__text">
+              Підготовка фітіля: вставлення фітіля до форми та зафіксування його так, щоб він був рівномірно напружений.</p>
+              <p class="made__num--revers">08</p>
+            </li>
+
+          <li class="made__item">
+            <p class="made__text">
+              Підготовка матеріалів: дрібні фрагменти соєвого воску, фітіль для свічки, ароматизатори, барвники та інші додаткові матеріали.
+            </p>
+            <p class="made__num">09</p>
+            <img src="images/made-9.jpg" alt="" class="made__img">
+          </li>
+          <li class="made__item">
+            <p class="made__text">
+              Наповнення форми: воск налити до форми, поки вона не заповниться повністю. Чекати, доки він затвердіє.         </p>
+              <p class="made__num">10</p>
+              <img src="images/made-10.jpg" alt="" class="made__img">
+          </li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="container product__inner">
+      <div class="made__info product__info">
+        <h2 class="product__info-title">Наші курси</h2>
+        <p class="product__info-text">Наші курси дозволяють зробити перший крок в новій кар'єрі або поглибити знання в своїй галузі, розвиватися як професіонал, а також покращити якість свого життя.</p>
+      </div>
+      <ul class="courses__list product__list section__decor">
+        <li class="courses__item product__item">
+          <div class="courses__item-box">
+          <img src="images/course-1.jpg" alt="" class="product__item-img">
+          <p class="courses__title">Основи виготовлення свічок</p>
+          <p class="courses__time">Навчання <span>- 20 год</span></p>
+          <p class="courses__price">Ціна - 40$</p>
+          </div>
+          <h3 class="product__item-title">Основи виготовлення свічок</h3>
+          <p class="product__item-text">Будем навчати основам виготовлення свічок з різних матеріалів.</p>
+            <button class="top__btn course__item-btn">Купити курс</button>
+        </li>
+        <li class="courses__item product__item">
+          <div class="courses__item-box">
+          <img src="images/course-2.jpg" alt="" class="product__item-img">
+          <p class="courses__title">Мистецтво ароматерапії</p>
+          <p class="courses__time">Навчання <span>- 20 год</span></p>
+          <p class="courses__price">Ціна - 40$</p>
+          </div>
+          <h3 class="product__item-title">Мистецтво ароматерапії</h3>
+          <p class="courses__text product__item-text">Будем  вивчати мистецтво ароматерапії та виготовлення свічок з різними ароматами.</p>
+            <button class="top__btn course__item-btn">Купити курс</button>
+        </li>
+        </ul>
+    </div>
+  </section>
+
+  <section class="teacher">
+    <div class="container product__inner teacher__inner">
+      <div class="teacher__info ">
+        <h3 class="teacher__info-title ">Наші викладачі</h3>
+        <p class="teacher__info-text ">Ці люди працюють разом, щоб створювати курси для вас, які допоможуть вам почати власний бізнес або хоббі.</p>
+      </div>
+
+      <ul class="teacher__list">
+
+        <li class="teacher__item">
+          <img src="images/teach-1.jpg" alt="" class="teacher__img">
+          <h3 class="teacher__item-title">Викладач Богдан<p class="teacher__item-text">Має досвід викладання і роботи 4 роки</p></h3>
+        </li>
+
+        <li class="teacher__item">
+          <img src="images/teach-2.jpg" alt="" class="teacher__img">
+          <h3 class="teacher__item-title">Викладач  Анна<p class="teacher__item-text">Має досвід викладання і роботи 6 років</p></h3>
+        </li>
+
+        <li class="teacher__item">
+          <img src="images/teach-3.jpg" alt="" class="teacher__img">
+          <h3 class="teacher__item-title">Викладач  Галина <p class="teacher__item-text">Навчає сфері дизайну та декорування</p></h3>
+        </li>
+
+        <li class="teacher__item">
+          <img src="images/teach-4.jpg" alt="" class="teacher__img">
+          <h3 class="teacher__item-title">Маркетолог  Ольга<p class="teacher__item-text">Допоможе вам з рекламою</p></h3> 
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="feedback ">
+    <div class="container feedback__inner product__inner">
+      <div class="feedback__info ">
+        <h2 class="product__info-title">Відгуки від клієнтів</h2>
+        <p class="product__info-text">Наші покупці мають різний вік, статус, заняття і інтереси, але у них є одна спільна риса - вони прагнуть до гармонії і знаходять радість у маленьких радощах життя, які створюють атмосферу затишку та гармонії у їхньому домі.</p>
+      </div>
+     <div class="feedback__decor section__decor">
+        <div class="swiper mySwiper ">
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide">
+              <img src="./images/swiper-1.jpg" alt="" class="feedback__content-img">
+              <div class="swiper__slide-inner">
+              <h3 class="swiper__title">Іван Пилипенко</h3>
+              <p class="swiper__text">Я замовив свічку в формі сердечка на День Святого Валентина для моєї дівчини і вона була просто неймовірна! Запах був дуже приємним і романтичним, а форма сердечка була досконалою для цього свята. Моя дівчина була дуже задоволена подарунком, і я точно замовлю ще свічок від цього сайту!"</p>
+            <button class="swiper__btn top__btn">
+              Купити цей товар
+            </button>
+            </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/prod-2.jpg" alt="" class="feedback__content-img">
+              <div class="swiper__slide-inner">
+              <h3 class="swiper__title">Іван Пилипенко</h3>
+              <p class="swiper__text">Я замовив свічку в формі сердечка на День Святого Валентина для моєї дівчини і вона була просто неймовірна! Запах був дуже приємним і романтичним, а форма сердечка була досконалою для цього свята. Моя дівчина була дуже задоволена подарунком, і я точно замовлю ще свічок від цього сайту!"</p>
+            <button class="swiper__btn top__btn">
+              Купити цей товар
+            </button>
+            </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/prod-1.jpg" alt="" class="feedback__content-img">
+              <div class="swiper__slide-inner">
+              <h3 class="swiper__title">Іван Пилипенко</h3>
+              <p class="swiper__text">Я замовив свічку в формі сердечка на День Святого Валентина для моєї дівчини і вона була просто неймовірна! Запах був дуже приємним і романтичним, а форма сердечка була досконалою для цього свята. Моя дівчина була дуже задоволена подарунком, і я точно замовлю ще свічок від цього сайту!"</p>
+            <button class="swiper__btn top__btn">
+              Купити цей товар
+            </button>
+            </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./images/prod-3.jpg" alt="" class="feedback__content-img">
+              <div class="swiper__slide-inner">
+              <h3 class="swiper__title">Іван Пилипенко</h3>
+              <p class="swiper__text">Я замовив свічку в формі сердечка на День Святого Валентина для моєї дівчини і вона була просто неймовірна! Запах був дуже приємним і романтичним, а форма сердечка була досконалою для цього свята. Моя дівчина була дуже задоволена подарунком, і я точно замовлю ще свічок від цього сайту!"</p>
+            <button class="swiper__btn top__btn">
+              Купити цей товар
+            </button>
+            </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div> 
+       </div> 
+    </div>
+  </section>
+
+  <section class="certificate">
+    <div class="container ">
+      <div class="certificate__inner">
+
+      <div class="certificate__info product__info">
+        <h2 class="product__info-title">Сертифікати 
+          якості</h2>
+        <p class="product__info-text">Сертифікати забезпечують додаткову довіру та впевненість для наших клієнтів.</p>
+      </div>
+      <div class="certificate__decor section__decor">
+      <div class="swiper certificate__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="certificate__img" src="images/cer-1.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="certificate__img" src="images/cer-2.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="certificate__img" src="images/cer-1.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="certificate__img" src="images/cer-1.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="certificate__img" src="images/cer-2.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="certificate__img" src="images/cer-1.jpg" alt=""></div>
+          
+        </div>
+        <div class="certificate__pagination swiper-pagination"></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="quastion">
+    <div class="container  product__inner quastion__inner">
+      <div class="quastion__info product__info">
+        <h2 class="product__info-title">Часті запитання</h2>
+      </div>
+      <div class="quastion__content">
+        <div class="accordeon">
+          
+          <div class="accordeon__item">
+            <button class="accordeon__title">
+              Які запахи доступні для свічок?
+            </button>
+            <div class="accordeon__text">
+              <ol>
+                <li>
+                  Ваніль - теплий, сладкий і затишний аромат, який нагадує про домашній затишок.
+                </li>
+                <li>
+                  Лаванда - приємний, успокійливий і релаксуючий запах, який допомагає зняти стрес і напругу.
+                </li>
+                <li>
+                  Рожевий грейпфрут - свіжий, фруктовий і енергійний аромат, який допомагає підняти настрій і збадьорити.
+                </li>
+                <li>
+                  Кедр - деревний, земний і маскулінний аромат, який надає відчуття стабільності і надійності.
+                </li>
+                <li>
+                  Яблуко і кориця - теплий і затишний аромат, який нагадує про зимові свята і домашність.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">
+              Які запахи доступні для свічок?
+            </button>
+            <div class="accordeon__text">
+              <ol>
+                <li>
+                  Ваніль - теплий, сладкий і затишний аромат, який нагадує про домашній затишок.
+                </li>
+                <li>
+                  Лаванда - приємний, успокійливий і релаксуючий запах, який допомагає зняти стрес і напругу.
+                </li>
+                <li>
+                  Рожевий грейпфрут - свіжий, фруктовий і енергійний аромат, який допомагає підняти настрій і збадьорити.
+                </li>
+                <li>
+                  Кедр - деревний, земний і маскулінний аромат, який надає відчуття стабільності і надійності.
+                </li>
+                <li>
+                  Яблуко і кориця - теплий і затишний аромат, який нагадує про зимові свята і домашність.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">
+              Які запахи доступні для свічок?
+            </button>
+            <div class="accordeon__text">
+              <ol>
+                <li>
+                  Ваніль - теплий, сладкий і затишний аромат, який нагадує про домашній затишок.
+                </li>
+                <li>
+                  Лаванда - приємний, успокійливий і релаксуючий запах, який допомагає зняти стрес і напругу.
+                </li>
+                <li>
+                  Рожевий грейпфрут - свіжий, фруктовий і енергійний аромат, який допомагає підняти настрій і збадьорити.
+                </li>
+                <li>
+                  Кедр - деревний, земний і маскулінний аромат, який надає відчуття стабільності і надійності.
+                </li>
+                <li>
+                  Яблуко і кориця - теплий і затишний аромат, який нагадує про зимові свята і домашність.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">
+              Які запахи доступні для свічок?
+            </button>
+            <div class="accordeon__text">
+              <ol>
+                <li>
+                  Ваніль - теплий, сладкий і затишний аромат, який нагадує про домашній затишок.
+                </li>
+                <li>
+                  Лаванда - приємний, успокійливий і релаксуючий запах, який допомагає зняти стрес і напругу.
+                </li>
+                <li>
+                  Рожевий грейпфрут - свіжий, фруктовий і енергійний аромат, який допомагає підняти настрій і збадьорити.
+                </li>
+                <li>
+                  Кедр - деревний, земний і маскулінний аромат, який надає відчуття стабільності і надійності.
+                </li>
+                <li>
+                  Яблуко і кориця - теплий і затишний аромат, який нагадує про зимові свята і домашність.
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="accordeon__item">
+            <button class="accordeon__title">
+              Які запахи доступні для свічок?
+            </button>
+            <div class="accordeon__text">
+              <ol>
+                <li>
+                  Ваніль - теплий, сладкий і затишний аромат, який нагадує про домашній затишок.
+                </li>
+                <li>
+                  Лаванда - приємний, успокійливий і релаксуючий запах, який допомагає зняти стрес і напругу.
+                </li>
+                <li>
+                  Рожевий грейпфрут - свіжий, фруктовий і енергійний аромат, який допомагає підняти настрій і збадьорити.
+                </li>
+                <li>
+                  Кедр - деревний, земний і маскулінний аромат, який надає відчуття стабільності і надійності.
+                </li>
+                <li>
+                  Яблуко і кориця - теплий і затишний аромат, який нагадує про зимові свята і домашність.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+
+
+
+  <section class="catalog">
+    <div class="container product__inner">
+      <div class="catalog__inner">
+      <p class="catalog__text">
+        Купуйте більше, економте більше 
+      </p>
+      <button class="catalog__btn top__btn">
+        В каталог
+      </button>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section class="form">
+    <div class="container">
+      <div class="form__inner">  
+      <form action="" class="form__list">
+        <h2 class="form__title">
+          Підпишись на наші акції
+        </h2>
+        <input type="text" class="form__input" placeholder="Імя">
+        <input type="email" class="form__input" placeholder="Е-mail">
+        <button class="form__btn ">Підписатись</button>
+      </form>
+      <img src="images/form-img.jpg" alt="" class="form__img">
+    </div>
+    </div>
+  </section>
+  </main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#" class="footer__logo"><img src="images/logo.png" alt="" class="footer__img"></a>
+    <nav class="menu ">
+      <ul class="menu__list footer__menu-list">
+        <li class="menu__list-item"><a href="#" class="menu__list-link">Про нас</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__list-link">Каталог</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__list-link">Команда</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__list-link">Відгуки</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__list-link">Курси</a></li>
+        <li class="menu__list-item"><a href="#" class="menu__list-link">Контакти</a></li>
+      </ul>
+    </nav>
+    <div class="footer__info">
+      <a href="tel:+4565789876" class="footer__phone">+45 65 78 98 76</a>
+      <a href="mailto:candelsCandels@gmail.com" class="email">candelsCandels@gmail.com</a>
+      <ul class="footer__social-list">
+        <li class="footer__footer__social-item"><a href="#" class="footer__social-link"><img src="images/fb.svg" alt="" class="footer__social-img"></a></li>
+        <li class="footer__footer__social-item"><a href="#" class="footer__social-link"><img src="images/inst.svg" alt="" class="footer__social-img"></a></li>
+        <li class="footer__footer__social-item"><a href="#" class="footer__social-link"><img src="images/linkedin.svg" alt="" class="footer__social-img"></a></li>
+        <li class="footer__footer__social-item"><a href="#" class="footer__social-link"><img src="images/youtube.svg" alt="" class="footer__social-img"></a></li>
+      </ul>
+    </div>
+    
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
